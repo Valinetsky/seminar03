@@ -48,15 +48,13 @@
 
 Обычная вставка в текст:
 
-[Текст ссылки](адрес "Описание")
+[Справочные материалы по Markdown](https://learn.microsoft.com/ru-ru/contribute/markdown-reference "Справочные материалы по Markdown")
 
 Формирование ссылки как сноски, для чего создается более сложная структура:
 
-[Текст ссылки][link1]
+[Справочные материалы по Markdown][link1]
 
-...а далее по тексту, например в конце документа, следует описание содержимого тега:
-
-[link1]: "Текст адреса ссылки"
+...а далее по тексту, например в конце документа, следует описание содержимого тега.
 
 ## Работа с таблицами
 
@@ -93,7 +91,7 @@ Markdown (МФА: [ˈmɑːkdaʊn], произносится маркда́ун) 
 
 ## Краткая справка по командам git
 
-```markdown
+```console
 git --version
 ```
 
@@ -101,7 +99,7 @@ git --version
 
 ---
 
-```markdown
+```console
 git init
 ```
 
@@ -109,7 +107,7 @@ git init
 
 ---
 
-```markdown
+```console
 git status
 ```
 
@@ -117,7 +115,7 @@ git status
 
 ---
 
-```markdown
+```console
 git add
 ```
 
@@ -125,7 +123,7 @@ git add
 
 ---
 
-```markdown
+```console
 git commit
 ```
 
@@ -133,7 +131,7 @@ git commit
 
 ---
 
-```markdown
+```console
 git log
 ```
 
@@ -141,7 +139,7 @@ git log
 
 ---
 
-```markdown
+```console
 git checkout
 ```
 
@@ -149,8 +147,12 @@ git checkout
 
 ---
 
-```markdown
+```console
 git branch
 ```
 
 Переключения между ветками проекта.
+
+---
+
+[link1]: https://learn.microsoft.com/ru-ru/contribute/markdown-reference "Текст адреса ссылки"
